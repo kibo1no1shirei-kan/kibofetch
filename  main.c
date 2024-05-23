@@ -1,10 +1,12 @@
-#include studio.h
 
 #include <stdio.h>
 
 void emptyFunction(int argc, char *argv[]) {
-    // This function does nothing with the arguments
-    // You can add code here to do something with the arguments if needed
+     for (int i = 0; i < argc; i++) {
+        printf("%s\n", argv[i]);
+        printf("dd");
+    }
+
 }
 
 int main(int argc, char *argv[]) {
