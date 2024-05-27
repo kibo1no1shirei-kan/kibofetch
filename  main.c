@@ -16,6 +16,6 @@ int main(int argc, char *argv[]) {
 
 
 int kibofetchcheck(){
-
+// /proc/sys is where most of the system information is exposed!
 
 }
